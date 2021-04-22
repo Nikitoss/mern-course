@@ -1,0 +1,63 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+
+.margin-right-10 {
+    margin-right: 10px;
+}
+
+.margin-bottom-10 {
+    margin-bottom: 10px;
+}
+
+.margin-left-10 {
+    margin-left: 10px;
+}
+
+.content-center {
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*padding-top: 10px;*/
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+/*!* label color *!*/
+/*.login-card .input-field label {*/
+/*    color: #000;*/
+/*}*/
+
+/* label focus color */
+.login-card .input-field input[type=text]:focus + label,
+.login-card .input-field input[type=password]:focus + label,
+.login-card .input-field input[type=email]:focus + label {
+    color: #039be5;
+}
+
+/* label underline focus color */
+.login-card .input-field input[type=text]:focus,
+.login-card .input-field input[type=password]:focus,
+.login-card .input-field input[type=email]:focus {
+    border-bottom: 1px solid #039be5;
+    box-shadow: 0 1px 0 0 #039be5;
+}
+
+/*!* valid color *!*/
+/*.login-card .input-field input[type=text].valid {*/
+/*    border-bottom: 1px solid #f00;*/
+/*    box-shadow: 0 1px 0 0 #f00;*/
+/*}*/
+
+/*!* invalid color *!*/
+/*.login-card .input-field input[type=text].invalid {*/
+/*    border-bottom: 1px solid #f00;*/
+/*    box-shadow: 0 1px 0 0 #f00;*/
+/*}*/
+
+/*!* icon prefix focus color *!*/
+/*.login-card .input-field .prefix.active {*/
+/*    color: #f00;*/
+/*}*/

@@ -1,0 +1,6 @@
+{
+    "port": 5000,
+    "jwtSecret": "krutikov nikita secret key",
+    "mongoUri": "mongodb+srv://krutikov_nikita:Z2gZFtlxKztdyQU8@cluster0.lptsa.mongodb.net/app?retryWrites=true&w=majority",
+    "baseURL": "http://localhost:5000"
+}
